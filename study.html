@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Platform</title>
+	<link rel="stylesheet" type="text/css" href="studyStyle.css">
+	<script src="https://kit.fontawesome.com/9ab08fbc2e.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="studyScript.js"></script>
+</head>
+<body>
+<header>
+	<h1 class="main-header">Welcome to the study board!</h1>
+	<h2 class="second-header">Have a nice time studying</h2>
+</header>
+
+<main>
+<section class="audio-section">
+	<section class="circle-container">
+		<section class="circle">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</section>
+	</section>
+	<section class="audio-container">
+		<audio controls loop id="audio-player">
+			<source src="music.mp3" type="audio/mp3">
+		</audio>
+	</section>
+</section>
+
+<section class="resources-container">
+	<h2>There is no glory in practise, but without practise there is no glory...</h2>
+	<section class="resource-space">
+		<section class="resource">Google classroom for fundamentals of Computer Science: <a href="#">link</a></section>
+		<section class="resource">Google classroom for fundamentals of Computer Science: <a href="#">link</a></section>
+		<section class="resource">Google classroom for fundamentals of Computer Science: <a href="#">link</a></section>
+		<section class="resource">Google classroom for fundamentals of Computer Science: <a href="#">link</a></section>
+		<section class="resource">Google classroom for fundamentals of Computer Science: <a href="#">link</a></section>
+		<section class="resource">Google classroom for fundamentals of Computer Science: <a href="#">link</a></section>
+		<section class="resource">Google classroom for fundamentals of Computer Science: <a href="#">link</a></section>
+		<section class="resource">Google classroom for fundamentals of Computer Science: <a href="#">link</a></section>
+	</section>
+</section>
+</main>
+<section class="quote-container">
+	<p class="quote">One day, all your hard work will pay off.</p>
+	<p class="quote">Do what is right, not what is easy.</p>
+	<p class="quote">If we wait until we’re ready, we’ll be waiting for the rest of our lives.</p>
+	<p class="quote">Work hard in silence.</p>
+	<p class="quote">Let success make the noise.</p>
+	<p class="quote">Be stronger than your excuses.</p>
+</section>
+<footer>
+	<p class="footer-text">&copy;Student Platform</p>
+	<ul class="footer-icons">
+		<li style="--clr:#1877f2;">
+			<a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+		</li>
+		<li style="--clr:#ff0000;">
+			<a href="https://www.gmail.com/" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+		</li>
+		<li style="--clr:#c32aa3;">
+			<a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+		</li>
+	</ul>
+</footer>
+
+<script>
+  var player = document.getElementById("audio-player");
+  player.addEventListener("play", function () {
+      console.log("it's go time");
+  });
+</script>
+
+</body>
+</html>
