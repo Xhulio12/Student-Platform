@@ -171,7 +171,6 @@ main {
 
 .quote:hover {
   color: #4d0fb2;
-  width: fit-content;
 }
 
 .quote:nth-child(1) {
@@ -206,8 +205,8 @@ main {
   margin-left: 100px;
 }
 
-/*Small screens */
-@media (max-width: 768px) {
+/*Middle screens */
+@media only screen and (max-width: 1300px)  {
 
   main {
     flex-direction: column;
@@ -235,14 +234,51 @@ main {
   }
 
   .quote:nth-child(1) {
-    text-align: center;
-    width: 300px;
-    margin-left: 150px;
+    text-align: right;
+  }
+
+  .quote:nth-child(2) {
+    text-align: left;
+  }
+
+  .quote:nth-child(3) {
+    text-align: right;
+  }
+
+  .quote:nth-child(4) {
+    text-align: left;
   }
 
   .quote:nth-child(5) {
+    text-align: right;
+  }
+  .quote:nth-child(6) {
+    text-align: left;
+  }
+}
+
+/*Small screens */
+@media only screen and (max-width: 600px)  {
+  .quote-container {
     width: 300px;
-    margin-left: 50px;
+  }
+
+  .quote {
+    display: block;
+    width: 200px;
+  }
+
+  .quote:nth-child(1) {
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  .quote:nth-child(2) {
+
+  } 
+
+  .quote:nth-child(5) {
+    margin-left: 10px;
   }
 }
 

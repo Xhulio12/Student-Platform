@@ -210,8 +210,15 @@ main {
 	opacity: 1.5;
 }
 
+/*Middle screens */
+@media only screen and (max-width: 1300px) {
+	header {
+		height: 35vh;
+	}
+}
+
 /*Small screens */
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
 	header {
 		flex-direction: column;
 		height: fit-content;
@@ -244,12 +251,17 @@ main {
 	}
 
 	.accomplishment-container {
-		width: 600px;
+		width: 300px;
 		text-align: center;
 	}
 
+	.accomplishment-header {
+		font-size: 1.8rem;
+		white-space:nowrap;
+	}
+
 	.accomplishment {
-		width: 550px;
+		width: 250px;
 	}
 }
 
