@@ -201,7 +201,7 @@ main {
 }
 
 /*Middle screens */
-@media (max-width: 1300px) {
+@media only screen and (max-width: 1300px) {
 	header {
 		height: fit-content;
 	}
@@ -253,7 +253,7 @@ main {
 }
 
 /*Small screens */
-@media (max-width: 450px) {
+@media only screen and (max-width: 600px) {
 	header {
 		height: fit-content;
 	}
@@ -295,8 +295,6 @@ main {
 
 	main {
 		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
 	}
 
 	.container {
@@ -305,10 +303,8 @@ main {
 	}
 
 	.a-text {
-		width: fit-content;
-		font-size: 1rem;
-		text-align: left;
-		margin-left: 0;
+		font-size: 2rem;
+		text-align: center;
 	} 
 
 	.announcment-space {
@@ -321,10 +317,15 @@ main {
 
 	.calendar-container {
 		margin-top: 20px;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
 	}
 
 	iframe {
 		width: 300px;
+		margin: 0;
+		padding: 0;
 	}
 }
 
