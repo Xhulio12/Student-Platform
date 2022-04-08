@@ -257,6 +257,14 @@ main {
     height: fit-content;
   }
 
+  .main-header {
+    font-size: 1.5rem;
+  }
+
+  .second-header {
+    font-size: 1.3rem;
+  }
+
   .resources-container {
     margin-left: 5px;
     margin-right: 5px;
@@ -270,7 +278,9 @@ main {
     text-align: center;
   }
   .quote-container {
-    width: 300px;
+    width: 450px;
+    overflow: hidden;
+    margin-left: 5px;
   }
 
   .quote {
@@ -280,8 +290,8 @@ main {
   }
 
   .quote:nth-child(1) {
-   text-align: right;
-   margin-left: 100px;
+    text-align: right;
+    margin-left: 120px;
   }
 
   .quote:nth-child(2) {
