@@ -202,6 +202,10 @@ main {
 
 /*Middle screens */
 @media (max-width: 1300px) {
+	header {
+		height: fit-content;
+	}
+
 	.logo-bg {
 		display: none;
 	}
@@ -249,7 +253,11 @@ main {
 }
 
 /*Small screens */
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+	header {
+		height: fit-content;
+	}
+
 	.logo-bg {
 		display: none;
 	}
@@ -273,16 +281,22 @@ main {
 		width: 100px;
 	}
 
+	.navbar-item:nth-child(4) {
+		margin-right: auto;
+	} 
+
 	.nav-text {
 		font-size: 1.1rem;
 	}
 
-	main {
-		flex-direction: column;
-	}
-
 	.nav-link span:hover, .nav-link span:active {
 		font-size: 1.3rem;
+	}
+
+	main {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
 	}
 
 	.container {
@@ -291,25 +305,22 @@ main {
 	}
 
 	.a-text {
+		width: fit-content;
+		font-size: 1rem;
+		text-align: left;
 		margin-left: 0;
-		text-align: center;
 	} 
 
 	.announcment-space {
 		width: 300px;
-		margin: 0;
-		padding: 0;
 	}
 
 	.announcment {
 		width: fit-content;
-		margin-left: 5px;
 	}
 
 	.calendar-container {
 		margin-top: 20px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 
 	iframe {
