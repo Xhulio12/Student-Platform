@@ -43,10 +43,13 @@ header {
   margin-top: 10px;
   background-color: #f2ff00;
   border-radius: 20px;
+  font-size: 1.7rem;
+  font-weight: 900;
 }
 
 .main-header {
   margin-bottom: 5px;
+  font-size: 2.3rem;
 }
 
 main {
@@ -58,7 +61,8 @@ main {
 
 .resources-container {
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+}
 
 .resources-container h2 {
   border-bottom: 30px solid #f0f024;
@@ -67,6 +71,8 @@ main {
   display: inline-block;
   padding-left: 5px;
   margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .resource-space {
@@ -225,7 +231,7 @@ main {
     border-bottom: 60px solid #f0f024;
     border-right: 60px solid #001433;;
     padding-top: 5px;
-    padding-left: 5;
+    padding-left: 5px;
     text-align: center;
   }
 
@@ -234,31 +240,35 @@ main {
   }
 
   .quote:nth-child(1) {
-    text-align: right;
-  }
-
-  .quote:nth-child(2) {
-    text-align: left;
-  }
-
-  .quote:nth-child(3) {
-    text-align: right;
-  }
-
-  .quote:nth-child(4) {
-    text-align: left;
+    text-align: center;
+    width: 300px;
+    margin-left: 450px;
   }
 
   .quote:nth-child(5) {
-    text-align: right;
-  }
-  .quote:nth-child(6) {
-    text-align: left;
+    width: 300px;
+    margin-left: 50px;
   }
 }
 
 /*Small screens */
 @media only screen and (max-width: 600px)  {
+  header{
+    height: fit-content;
+  }
+
+  .resources-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .resources-container h2 {
+    border-bottom: 110px solid #f0f024;
+    border-right: 110px solid #001433;;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center;
+  }
   .quote-container {
     width: 300px;
   }
@@ -266,20 +276,37 @@ main {
   .quote {
     display: block;
     width: 200px;
+    margin-top: 5px;
   }
 
   .quote:nth-child(1) {
-    text-align: center;
-    margin-left: 5px;
+   text-align: right;
+   margin-left: 100px;
   }
 
   .quote:nth-child(2) {
+    text-align: left;
+    margin-left: 20px;
+  }
 
-  } 
+  .quote:nth-child(3) {
+    text-align: right;
+    margin-left: 120px;
+  }
 
-  .quote:nth-child(5) {
+  .quote:nth-child(4) {
+    text-align: left;
     margin-left: 10px;
   }
+
+  .quote:nth-child(5) {
+    text-align: right;
+  }
+  .quote:nth-child(6) {
+    text-align: left;
+    margin-left: 150px;
+  }
+
 }
 
 /**Footer style **/
