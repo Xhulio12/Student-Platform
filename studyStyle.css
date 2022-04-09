@@ -255,6 +255,7 @@ main {
 @media only screen and (max-width: 600px)  {
   header{
     height: fit-content;
+    padding-bottom: 5px;
   }
 
   .main-header {
@@ -291,7 +292,7 @@ main {
 
   .quote:nth-child(1) {
     text-align: right;
-    margin-left: 120px;
+    margin-left: 0;
   }
 
   .quote:nth-child(2) {
