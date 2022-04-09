@@ -254,8 +254,9 @@ main {
 
 /*Small screens */
 @media only screen and (max-width: 600px) {
-	header {
+	.navbar {
 		height: fit-content;
+		padding-bottom: 10px;
 	}
 
 	.logo-bg {

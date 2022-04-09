@@ -279,7 +279,7 @@ main {
     text-align: center;
   }
   .quote-container {
-    width: 450px;
+    width: 350px;
     overflow: hidden;
     margin-left: 5px;
   }
@@ -311,11 +311,12 @@ main {
   }
 
   .quote:nth-child(5) {
-    text-align: right;
+    text-align: left;
+    margin-right: 20px;
   }
   .quote:nth-child(6) {
     text-align: left;
-    margin-left: 150px;
+    margin-left: 100px;
   }
 
 }
